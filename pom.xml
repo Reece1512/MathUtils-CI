@@ -5,11 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
-    <artifactId>math-utils-ci</artifactId>
-=======
     <artifactId>math-utils-final</artifactId>
->>>>>>> 0658c15 (test JaCoCo)
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -25,20 +21,13 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
-
-=======
->>>>>>> 0658c15 (test JaCoCo)
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
 
-=======
->>>>>>> 0658c15 (test JaCoCo)
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -51,8 +40,6 @@
         </dependency>
     </dependencies>
 
-<<<<<<< HEAD
-=======
     <build>
         <plugins>
             <plugin>
@@ -96,5 +83,4 @@
             </plugin>
         </plugins>
     </build>
->>>>>>> 0658c15 (test JaCoCo)
 </project>
