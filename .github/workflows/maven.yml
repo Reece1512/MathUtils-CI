@@ -2,9 +2,9 @@ name: MathUtils Automated CI
 
 on:
   push:
-    branches: [master]
+    branches: [bai07]
   pull_request:
-    branches: [master]
+    branches: [bai07-final]
 
 jobs:
   build:
