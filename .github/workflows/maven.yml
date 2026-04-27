@@ -5,6 +5,8 @@ on: [push, pull_request]
 jobs:
   build:
     strategy:
+      fail-fast: false
+
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
@@ -18,5 +20,5 @@ jobs:
           java-version: '25'
           distribution: 'temurin'
           cache: maven
-      - name: Chạy Test và Build bằng Maven
+      - name: Run Maven tests
         run: mvn -B verify
