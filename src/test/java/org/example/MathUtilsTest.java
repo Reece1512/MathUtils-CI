@@ -18,7 +18,7 @@ public class MathUtilsTest {
 
     @Test
     public void checkMax_AGreaterThanB() {
-        assertEquals(100, MathUtils.max(5,3));
+        assertEquals(5, MathUtils.max(5,3));
     }
 
     @Test

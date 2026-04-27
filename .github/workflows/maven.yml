@@ -13,9 +13,9 @@ jobs:
           java-version: '25'
           distribution: 'temurin'
           cache: maven
-      - name: Chạy Test và Build bằng Maven
+      - name: Run Maven Build
         run: mvn -B verify
-      - name: Luu tru file JAR
+      - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
           name: MathProject-Jar
