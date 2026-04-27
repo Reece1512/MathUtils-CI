@@ -1,5 +1,6 @@
 package org.example;
 
+<<<<<<< HEAD
 import java.io.File;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +11,9 @@ import java.nio.file.Paths;
 public class MathUtils {
     private static final Logger logger = LoggerFactory.getLogger(MathUtils.class);
 
+=======
+public class MathUtils {
+>>>>>>> 0658c15 (test JaCoCo)
     public static int max(int a, int b) {
         if (a >= b) {
             return a;
@@ -23,6 +27,7 @@ public class MathUtils {
         }
         return a/b;
     }
+<<<<<<< HEAD
 
     public static boolean checkFileExists(String folder, String fileName) {
         //String path = folder + "\\" + fileName;
@@ -31,4 +36,6 @@ public class MathUtils {
 
         return path.toFile().exists();
     }
+=======
+>>>>>>> 0658c15 (test JaCoCo)
 }

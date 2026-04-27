@@ -57,9 +57,12 @@ public class MathUtilsTest {
 
         assertEquals("Divider must not be zero", e.getMessage());
     }
+<<<<<<< HEAD
 
     @Test
     public void testFilePath_Hardcoded() {
         assertTrue(MathUtils.checkFileExists("src", "main"), "Path exist!");
     }
+=======
+>>>>>>> 0658c15 (test JaCoCo)
 }
