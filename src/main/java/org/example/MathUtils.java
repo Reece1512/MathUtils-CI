@@ -4,6 +4,9 @@ import java.io.File;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class MathUtils {
     private static final Logger logger = LoggerFactory.getLogger(MathUtils.class);
 
@@ -22,10 +25,10 @@ public class MathUtils {
     }
 
     public static boolean checkFileExists(String folder, String fileName) {
-        String path = folder + "\\" + fileName;
+        //String path = folder + "\\" + fileName;
+        Path path = Paths.get(folder, fileName);
         logger.info("Checking path: {}", path);
 
-        File file = new File(path);
-        return file.exists();
+        return path.toFile().exists();
     }
 }
