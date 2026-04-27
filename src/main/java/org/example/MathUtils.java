@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public class MathUtils {
     private static final Logger logger = LoggerFactory.getLogger(MathUtils.class);
 
-    public static int max(int a, int b) {
+                                                        public static int max(int a, int b) {
         if (a >= b)
             return a;
 
